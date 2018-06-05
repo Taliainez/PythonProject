@@ -35,6 +35,7 @@ fig2.show()
 # Paste earth into right eye and display
 # Uses alpha from mask
 student_img.paste(earth_small, (1162, 966), mask=earth_small) 
+student_img.paste(earth_small, (700, 940), mask=earth_small) 
 # Display
 fig3, axes3 = plt.subplots(1, 2)
 axes3[0].imshow(student_img, interpolation='none')
